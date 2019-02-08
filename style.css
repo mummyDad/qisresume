@@ -1,0 +1,37 @@
+.main{
+  width: 100%;
+  background: pink;
+  justify-content: space-between;
+}
+.left{
+  background: #adce;
+  width: 20%;
+  text-align: center;
+  position: fixed;
+}
+img{
+  width: :43vh;
+  border-radius: 50%;
+}
+
+.right{
+  background: gray;
+  width: 79%;
+  padding: .5em;
+  margin-left: 21%;
+}
+
+@media (min-device-width:350px) and (max-device-width:480px) {
+  .main{
+    width: 100%;
+  }
+  .left{
+    width: 98%;
+    position: relative;
+  }
+  .right{
+    width: 94%;
+    margin-left:0%;
+    margin-top: 0%;
+  }
+}
